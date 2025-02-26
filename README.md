@@ -1,11 +1,11 @@
 # TWAGD
 Today Was A Good Day is a BYOVD exploit that uses Python to evade detection 
 
-TWAGD uses the vulnerable TfSysMon driver from ThreatFire System Monitor (2013) caleld SysMon.sys to either singularly or perpetually terminate a process from the kernel. The script is written in Python to bypass standard executable detection mechanisms. 
+TWAGD uses the vulnerable TfSysMon driver from ThreatFire System Monitor (2013) called SysMon.sys to either singularly or perpetually terminate a process from the kernel. The script is written in Python to bypass standard executable detection mechanisms. 
 
 As of 2/21/2025 the SysMon.sys driver is not blocked by Microsoft. 
 
-Below is an output of the CLI when the script is executed. 
+Below is an output of the CLI when the constant or multi script is executed. 
 
 ```
 python .\twagd_constant.py MsMpEng.exe
